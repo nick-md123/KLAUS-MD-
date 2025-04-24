@@ -14,7 +14,7 @@ const instaDownload = async (m, Matrix) => {
     if (!text) return m.reply('Please provide an Instagram URL.');
 
     try {
-      await m.React('🕘');
+      await m.React('🧃');
 
       const apiUrl = `${apiBaseUrl}${encodeURIComponent(text)}`;
       const response = await axios.get(apiUrl);
@@ -22,7 +22,7 @@ const instaDownload = async (m, Matrix) => {
 
       if (result.success && result.data && result.data.length > 0) {
         const mediaUrl = result.data[0].url_download; // Use the first media URL from the array
-        const caption = "𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐊𝐋𝐀𝐔𝐒";
+        const caption = "𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐊𝐑𝐈𝐒𝐇𝐍𝐀𝐍";
 
         await Matrix.sendMedia(m.from, mediaUrl, 'file', caption, m);
         await m.React('✅');
