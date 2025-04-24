@@ -14,9 +14,9 @@ const alive = async (m, Matrix) => {
 
   const uptimeMessage = `
 ┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🏮  *Founder:*  𝙎-𝙏𝞢𝞜
-┃ 🗣️  *Bot Name:* 𝐊𝐋𝐀𝐔𝐒-𝐌𝐃
-┃ 💻  *Host:* Kali Linux
+┃ 🏮  *Founder:*  𝐊𝐑𝐈𝐒𝐇𝐍𝐀𝐍🦋
+┃ 🗣️  *Bot Name:* 𝐊𝐑𝐈𝐒𝐇𝐍𝐀𝐍-𝐗𝐃
+┃ 💻  *Host:* Monjan Nicm
 ╰───────────────⍟`;
 
   const buttons = [
